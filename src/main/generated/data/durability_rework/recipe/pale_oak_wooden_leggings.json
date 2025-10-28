@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_leggings",
+  "key": {
+    "M": "minecraft:pale_oak_log"
+  },
+  "pattern": [
+    "MMM",
+    "M M",
+    "M M"
+  ],
+  "result": {
+    "components": {
+      "minecraft:equippable": {
+        "asset_id": "minecraft:pale_oak_wood",
+        "slot": "legs"
+      },
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.pale_oak_wooden_leggings"
+      }
+    },
+    "count": 1,
+    "id": "durability_rework:wooden_leggings"
+  }
+}

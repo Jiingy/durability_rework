@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_shovel",
+  "key": {
+    "M": "minecraft:dark_oak_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "M",
+    "S",
+    "S"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.dark_oak_wooden_shovel"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:wooden_shovel"
+  }
+}

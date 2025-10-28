@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_sword",
+  "key": {
+    "M": "minecraft:pale_oak_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "M",
+    "M",
+    "S"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.pale_oak_wooden_sword"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:wooden_sword"
+  }
+}

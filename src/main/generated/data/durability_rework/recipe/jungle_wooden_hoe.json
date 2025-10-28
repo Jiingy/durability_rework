@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_hoe",
+  "key": {
+    "M": "minecraft:jungle_planks",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "MM",
+    " S",
+    " S"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.jungle_wooden_hoe"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:wooden_hoe"
+  }
+}

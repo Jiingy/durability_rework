@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "durability_rework:item/dark_oak_wooden_leggings"
+  }
+}

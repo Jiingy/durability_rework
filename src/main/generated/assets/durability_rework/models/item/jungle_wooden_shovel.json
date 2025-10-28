@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "durability_rework:item/jungle_wooden_shovel"
+  }
+}

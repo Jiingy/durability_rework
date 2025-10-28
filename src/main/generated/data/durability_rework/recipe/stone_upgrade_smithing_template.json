@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "#durability_rework:logs",
+    "M": "minecraft:smooth_stone",
+    "S": "minecraft:stone",
+    "W": "#durability_rework:wood"
+  },
+  "pattern": [
+    "LML",
+    "LSL",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "durability_rework:stone_upgrade_smithing_template"
+  }
+}

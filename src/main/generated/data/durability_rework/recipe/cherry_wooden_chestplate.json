@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_chestplate",
+  "key": {
+    "M": "minecraft:cherry_planks"
+  },
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "components": {
+      "minecraft:equippable": {
+        "asset_id": "minecraft:cherry_wood",
+        "slot": "chest"
+      },
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.cherry_wooden_chestplate"
+      }
+    },
+    "count": 1,
+    "id": "durability_rework:wooden_chestplate"
+  }
+}

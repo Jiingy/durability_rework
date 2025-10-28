@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "durability_rework:dark_oak_wood"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "durability_rework:dark_oak_wood"
+      }
+    ]
+  }
+}

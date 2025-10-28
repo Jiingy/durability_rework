@@ -1,0 +1,121 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/oak_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.oak_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/spruce_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.spruce_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/birch_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.birch_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/acacia_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.acacia_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/cherry_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.cherry_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/jungle_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.jungle_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/dark_oak_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.dark_oak_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/pale_oak_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.pale_oak_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/crimson_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.crimson_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/warped_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.warped_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/mangrove_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.mangrove_wooden_leggings"
+        }
+      },
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "durability_rework:item/bamboo_wooden_leggings"
+        },
+        "when": {
+          "translate": "item.durability_rework.bamboo_wooden_leggings"
+        }
+      }
+    ],
+    "component": "minecraft:item_name",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "durability_rework:item/wooden_leggings"
+    },
+    "property": "minecraft:component"
+  }
+}

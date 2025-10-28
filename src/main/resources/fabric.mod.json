@@ -1,0 +1,59 @@
+{
+   "schemaVersion": 1,
+   "id": "durability_rework",
+   "version": "${version}",
+   "name": "Durability Rework",
+   "description": "This is an example description! Tell everyone what your mod is about!",
+   "authors": [
+      "Jingy"
+   ],
+   "contact": {
+      "homepage": "https://fabricmc.net/",
+      "sources": "https://github.com/FabricMC/fabric-example-mod"
+   },
+   "license": "CC0-1.0",
+   "icon": "assets/durability_rework/icon.png",
+   "environment": "*",
+   "entrypoints": {
+      "main": [
+         "net.jineric.durability_rework.DurabilityMain"
+      ],
+      "client": [
+         "net.jineric.durability_rework.DurabilityClient"
+      ],
+      "fabric-datagen": [
+         "net.jineric.durability_rework.datagen.DurabilityDataGenerator"
+      ]
+   },
+   "mixins": [
+      "durability_rework.mixins.json",
+      {
+         "config": "durability_rework.client.mixins.json",
+         "environment": "client"
+      }
+   ],
+   "depends": {
+      "fabricloader": ">=0.16.9",
+      "minecraft": ">=1.21.7",
+      "java": ">=21",
+      "fabric-api": "*"
+   },
+   "accessWidener": "durability_rework.accesswidener",
+   "suggests": {
+      "another-mod": "*"
+   },
+   "custom": {
+      "loom:injected_interfaces": {
+         "net/minecraft/class_1799": [
+            "net/jineric/durability_rework/access/ItemStackAccess"
+         ],
+         "net/minecraft/class_1792\u0024class_1793": [
+            "net/jineric/durability_rework/access/ItemSettingsAccess"
+         ],
+         "net/minecraft/class_3924": [
+            "net/minecraft/class_3908",
+            "net/minecraft/class_1275"
+         ]
+      }
+   }
+}

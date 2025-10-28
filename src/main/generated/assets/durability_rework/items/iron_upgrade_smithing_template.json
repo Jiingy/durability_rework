@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "durability_rework:item/iron_upgrade_smithing_template"
+  }
+}

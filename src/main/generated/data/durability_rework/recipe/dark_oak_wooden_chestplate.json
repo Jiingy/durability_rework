@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_chestplate",
+  "key": {
+    "M": "minecraft:dark_oak_planks"
+  },
+  "pattern": [
+    "M M",
+    "MMM",
+    "MMM"
+  ],
+  "result": {
+    "components": {
+      "minecraft:equippable": {
+        "asset_id": "minecraft:dark_oak_wood",
+        "slot": "chest"
+      },
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.dark_oak_wooden_chestplate"
+      }
+    },
+    "count": 1,
+    "id": "durability_rework:wooden_chestplate"
+  }
+}

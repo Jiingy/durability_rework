@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_helmet",
+  "key": {
+    "M": "minecraft:pale_oak_planks"
+  },
+  "pattern": [
+    "MMM",
+    "M M"
+  ],
+  "result": {
+    "components": {
+      "minecraft:equippable": {
+        "asset_id": "minecraft:pale_oak_wood",
+        "slot": "head"
+      },
+      "minecraft:item_name": {
+        "translate": "item.durability_rework.pale_oak_wooden_helmet"
+      }
+    },
+    "count": 1,
+    "id": "durability_rework:wooden_helmet"
+  }
+}

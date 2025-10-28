@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "net.jineric.durability_rework.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilScreenHandlerMixin",
+    "CampfireBlockEntityMixin",
+    "CampfireBlockMixin",
+    "CropBlockMixin",
+    "ItemMixin",
+    "ItemSettingsMixin",
+    "ItemsMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "ShapedRecipeJsonBuilderMixin",
+    "ToolMaterialMixin",
+    "access_overrides.ItemSettingsOverrides",
+    "access_overrides.ItemStackOverrides",
+    "access_overrides.ShapedRecipeJsonBuilderOverrides",
+    "datagen.TransmuteRecipeResultMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

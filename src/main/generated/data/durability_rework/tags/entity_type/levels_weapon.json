@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#durability_rework:levels_weapon_low",
+    "#durability_rework:levels_weapon_medium",
+    "#durability_rework:levels_weapon_medium_plus",
+    "#durability_rework:levels_weapon_high",
+    "#durability_rework:levels_weapon_extreme"
+  ]
+}

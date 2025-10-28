@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "durability_rework:block/work_bench"
+  }
+}

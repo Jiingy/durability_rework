@@ -1,0 +1,16 @@
+{
+   "required": true,
+   "package": "net.jineric.durability_rework.mixin.client",
+   "compatibilityLevel": "JAVA_21",
+   "client": [
+      "AnvilScreenMixin",
+      "DrawContextMixin",
+      "GameOptionsMixin",
+      "HandledScreenMixin",
+      "InGameHudMixin",
+      "VideoOptionsScreenMixin"
+   ],
+   "injectors": {
+      "defaultRequire": 1
+   }
+}

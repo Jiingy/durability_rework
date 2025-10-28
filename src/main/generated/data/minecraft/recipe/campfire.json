@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "#minecraft:logs",
+    "S": "minecraft:stick",
+    "T": "durability_rework:tinder"
+  },
+  "pattern": [
+    "SSS",
+    "LTL",
+    "LLL"
+  ],
+  "result": {
+    "components": {
+      "minecraft:block_state": {
+        "lit": "true"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:campfire"
+  }
+}
