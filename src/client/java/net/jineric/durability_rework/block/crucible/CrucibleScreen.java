@@ -31,4 +31,5 @@ public class CrucibleScreen extends HandledScreen<CrucibleScreenHandler> {
 		int y = (this.height - this.backgroundHeight) / 2;
 		context.drawTexture(RenderPipelines.GUI_TEXTURED, TEXTURE, x, y, 0.0F, 0.0F, this.backgroundWidth, this.backgroundHeight, 256, 256);
 	}
+	
 }
